@@ -19,7 +19,7 @@ pages.base_url = "http://localhost/login-api";
                 api_data
             );
         }catch(error){
-            pages.print_message("Error from Linking (POST)" + error)
+            pages.print_message(" FATAL Error from Linking (POST)" + error)
         }
     }
     

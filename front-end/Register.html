@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="LoginStyle.css">
+</head>
+<body>
+    <div class="main-div">
+        <div class="form-box">
+            <form id="registrationForm">
+                <h2>Register</h2>
+                <div class="form-value">
+                    <div class="left-div">
+
+                        <div class="inputBox">
+                            <ion-icon name="mail-outline"></ion-icon>
+                            <input type="email" required>
+                            <label for="">Email</label>
+                        </div>
+                        
+                        <div class="inputBox">
+                            <ion-icon name="lock-closed-outline"></ion-icon>
+                            <input type="password" required>
+                            <label for="">Password</label>
+                        </div>
+
+                        <div class="inputBox">
+                            <ion-icon name="lock-closed-outline"></ion-icon>
+                            <input type="password" required>
+                            <label for="">Validate Password</label>
+                        </div>
+                    </div>
+
+                    <div class="right-div">
+                        <div class="inputBox">
+                            <input type="date"  required>
+                            <label for="">Date of birth</label>
+                        </div>
+
+                        <div class="inputBox">
+                            <input type="number" required>
+                            <label for="">Mobile Number</label>
+                        </div>
+
+                        <div class="gender">
+                            <div class="details">
+                                <u>Gender:</u>
+                            </div>
+                            <div >
+                                <label for="radioMale">Male:</label>
+                                <input id="radioMale" type="radio" name="gender">
+                            </div>
+                            <div>
+                                <label for="radioFemale">Female:</label>
+                                <input id="radioFemale"type="radio" name="gender">
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+                <button type="submit">Register</button>
+                <div class="Login">
+                    <p>Already have an account <a href="Login.html">Back to Login</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+    <footer class="bg-warning text-dark text-center py-4" >
+        <div class="container">
+            2023 my website, All rights reserved
+        </div>
+    </footer>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>  
+</body>
+</html>
